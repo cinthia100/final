@@ -1,0 +1,124 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(IMG_0721.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;;
+    background-color: rgb(126, 15, 15);
+   
+}
+.back{
+    background-color: white;
+
+}
+
+ul li{
+    background-color: black;
+    list-style-type: none;
+    font: 26px Monaco, MonoSpace;
+    height: 200px;
+    position: absolute;
+    width: 14px;;
+    left: 0;
+    top: 0;
+    transform-origin: bottom center;
+    color: white;
+}
+
+/* Some stuff on links */
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* "Hover" means when you mouse over over a link. Doesn't work on phones! */
+  a:hover {
+    color: white;
+    background:rgb(231, 147, 161);
+    font-size: 24.5px;
+  }
+  
+  /* "Active" means when you are clicking down on the link. */
+  a:active {
+    background: blue;
+  }
+  
+  /* "Visited" means you have already visited that page before. By default it's purple unless the link color is specified otherwise. */
+  a:visited {
+    color: white;
+    text-decoration: underline;
+  }
+
+.circle {
+    position: relative;
+    width: 400px;
+    border-radius: 50%;
+    transform: rotate(-50deg);
+  }
+
+  .one {
+    transform: rotate(24deg);
+  }
+  
+  .two {
+    transform: rotate(48deg);
+  }
+  
+  .three {
+    transform: rotate(73deg);
+  }
+  
+  .four{
+    transform: rotate(96deg);
+  }
+  
+.five{
+    transform: rotate(120deg);
+  }
+  
+.six {
+    transform: rotate(144deg);
+  }
+  
+ .seven {
+    transform: rotate(168deg);
+  }
+  
+.eight {
+    transform: rotate(192deg);
+  }
+  
+.nine {
+    transform: rotate(216deg);
+  }
+  
+ .ten {
+    transform: rotate(240deg);
+  }
+  
+ .eleven {
+    transform: rotate(264deg);
+  }
+  
+.twelve {
+    transform: rotate(288deg);
+  }
+  
+.thirteen {
+    transform: rotate(312deg);
+  }
+  
+.fourteen {
+    transform: rotate(336deg);
+  }
+  
+.fifteen{
+    transform: rotate(360deg);
+  }
+  
+#booty{
+    color:yellowgreen;
+    font-weight:;}
